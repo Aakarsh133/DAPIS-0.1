@@ -1,4 +1,5 @@
-def fun():
-    print("FUN")
+import pandas as pd
 
-    return 0
+def importer():
+    df= pd.read_csv("/home/aakarsh/Downloads/Share of Students Studying Abroad.csv")
+    print(df.head())
